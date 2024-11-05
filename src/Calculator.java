@@ -18,7 +18,7 @@ public class Calculator {
     // 나눗셈
     public double divide(double a, double b) {
         if (b == 0) {
-            throw new ArithmeticException("0으로 나눌 수 없습니다.");
+            System.out.println("0으로 나눌 수 없습니다.");
         }
         return a / b;
     }
